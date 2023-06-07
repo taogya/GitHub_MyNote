@@ -15,4 +15,6 @@ echo -n 'Host github.com
   PreferredAuthentications publickey
   TCPKeepAlive yes 
   IdentitiesOnly yes' >> ~/.ssh/config
+# connection test
+ssh -T git@github.com
 ```
